@@ -54,6 +54,7 @@
     var sanitisedString = string
     sanitisedString = unMarkdownify(sanitisedString)
     sanitisedString = unMarkupify(sanitisedString)
+    sanitisedString = unFullstopify(sanitisedString)
     return sanitisedString
   }
 
@@ -66,6 +67,12 @@
   function unMarkupify(string)
   {
     var sanitisedString = !string.length ? string : string.replace(/<a[^>]*>(.*?)<\/a>/g, '$1')
+    return sanitisedString
+  }
+
+  function unFullstopify(string)
+  {
+    var sanitisedString = !string.length ? string : string.replace(/\.$/g, '')
     return sanitisedString
   }
 
