@@ -17,7 +17,7 @@
   
   var docoURL = 'https://docs.google.com/document/d/15oMHuBNX4CTMvaAm7piTaWVwpc8kaO0bDLg190p5Qdc/pub',
       wtfData = null, // raw data from http://referendum.wtf/issues
-      data = { 'in':[], 'out':[] } // structured Tracery data for @referendumBot
+      data = { 'in':[], 'out':[], 'inURL':[], 'outURL':[] } // structured Tracery data for @referendumBot
 
   $.doctop(
   {
@@ -33,6 +33,8 @@
         // console.log(issue.id)
         extractArguments(issue, 'in')
         extractArguments(issue, 'out')
+        urlifyArguments(issue, 'in')
+        urlifyArguments(issue, 'out')
       })
       var json = JSON.stringify(data)
       $('textarea').text(json.slice(1, -1)) // remove { and }
@@ -47,6 +49,23 @@
       var bullet = sanitise(point.bullet)
       data[type].push(bullet)
     })
+  }
+
+  function urlifyArguments(issueData, type)
+  {
+    issueData[type].forEach(function(point)
+    {
+      var bullet = sanitise(point.bullet),
+          url = urlify(bullet)
+      data[type + 'URL'].push(url)
+    })
+  }
+
+  // http://referendum.wtf/cards/ReferendumBot/0/london3.jpg/%C2%A0Around%201.3%20million%20Brits%20%F0%9F%8C%B4%20live%20abroad%C2%A0in%20the%20EU%2C%20and%20having%20membership%20makes%20travel%20easier.
+  function urlify(string)
+  {
+    var url = encodeURI(string)
+    return url
   }
 
   function sanitise(string)
