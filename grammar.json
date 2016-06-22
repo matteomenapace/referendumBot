@@ -1,0 +1,53 @@
+{
+	"choice": [
+		"Remain",
+		"Leave",
+		"In",
+		"Out",
+		"Brexit",
+		"Bremain",
+		"Stay"
+	],
+	"punctuation": [
+		"?",
+		"?!",
+		"...",
+		"? hmm",
+		" huh?",
+		"..",
+		"...?",
+		" hmm"
+	],
+	"link": [
+		"http://wtfisbrexit.com",
+		"http://www.leaveorstay.co.uk",
+		"https://electionmate.hackeurope.uk",
+		"https://speakout.38degrees.org.uk/campaigns/eu-quiz",
+		"https://theconversation.com/the-conversation-is-on-whatsapp-for-coverage-of-the-eu-referendum-60755",
+		"http://referendum.wtf/issues",
+		"http://referendum.wtf/issues"
+	],
+	"hashtag": [
+		"\\#AreEUReady", 
+		"\\#BrexitOrBromance",
+		"\\#EUref",
+		"\\#EUref"
+	],
+	"origin": [
+		"#choice##punctuation# #link# #hashtag#", "IN  #in# #hashtag#", "OUT #out# #hashtag#", "IN  #in#", "OUT #out#", "\\#StrongerIn \\#BrexitOrBromance \\#EUref  http://referendum.wtf/cards/ReferendumBot/0/#img#/#inURL#", "\\#VoteLeave \\#BrexitOrBromance \\#EUref http://referendum.wtf/cards/ReferendumBot/0/#img#/#outURL#"
+	],
+
+"img":["angela1.jpg","angela2.jpg","angelae1.jpg","boris.jpg","boris2.jpg","boris3.jpg","boris4.jpg","boris5.jpg","boris6.jpg","campaign1.jpg","campaign2.jpg","campaign3.jpg","campaign4.jpg","christine.jpg","christine1.jpg","dave.jpg","george.jpg","gordon.jpg","jean.jpg","london1.jpg","london2.jpg","london3.jpg","london4.jpg","nicola.jpg","nigel.jpg","nigel2.jpg","obama.jpg","priti.jpg","sadiq.jpg"],
+
+	"in":["✈ ♻ Free movement: Around 1.3 million Brits 🌴 live abroad in the EU, and having membership makes travel easier","💷 ⬆Prices would rise: Flights, energy and 📱 phone tariffs are all at risk of going up in price if we leave the EU","💪 👥 Deal-making power: The EU negotiates 💡 energy deals as a large, supposedly stronger, bloc","💰 🎁 Buying & Selling: Britain is the EU’s largest trading partner 40+% of GB exports go to the EU & 50+% of GB products  come from the EU","📦 📜 Trading rules: Even after Brexit, Britain may still have to comply with EU rules to trade with EU countries","📉 🚧 Slower growth: If we left the EU an estimated £36bn would be lost per year due to slower growth","💪 👥 Stronger in: In a competitive, 🌍 globalised world  the UK needs to stay in the EU to help shape laws which affect the UK from the inside","✌ 👊 UK government’s 🇬🇧 ability to influence policies occurs both in voting and in negotiations over the text of a draft law","💝 👍 Helpful laws: Many EU laws benefit the UK, for instance the new EU CAP will invest £22 billion over the next 7 years","✈ ✅ Migrants benefit us: EU citizens living in Britain 💸 pay more in taxes than they receive in benefits","🔧 🔩 Tightening rules: Benefits for new EU migrant workers will soon be limited for the first four years"],
+
+	"out":["🙊 💬 Limited power: The UK Government can only do so much to 🚷 reduce immigration due to the rules of being in the EU","🐌 🔀 Slow to change: The UK 🆕🚫can’t change certain legislation without it going through the EU, which often ⏳ takes longer like the infamous tampon tax","💡 👌 Energy independent: Most of our 💨 gas imports come from Norway – Britain is not dependent on Russia","💰 🎁 Handing over cash: We have paid around £380 billion to the EU since we joined in the 70s, adjusting for inflation - this money could have been spent directly on British public services","📜 💳 Terms and conditions: Much of the money we get straight back from the EU comes with instructions on how to spend it - a Brexit would mean we can dictate where it goes","🐾 🚸 Trodden path: Britain could emulate countries like Norway or Switzerland, both prosperous and with a high standard-of-living, and re-establish trade links with EU states","💪 💬 Big influence: Between 10% and 55% of UK laws and regulations🌱stem from the EU","🙋 🚶 Voted out: In recent years the UK has been on the losing side of fighting EU laws, and now loses a higher proportion of votes than any other member","⛔ 🚷 Held back: Open Europe estimates that the 100 most expensive EU regulations set back the UK economy by £27.4 billion a year","🔓 ⚠ Lacking control: Immigration can only be controlled so much when you’re an EU member","🚷 🚪 Security risks: The Schengen Area means someone crossing the channel could have entered Europe from almost any bordering country"],
+
+	"inURL":["%E2%9C%88%20%E2%99%BB%20Free%20movement:%C2%A0Around%201.3%20million%20Brits%20%F0%9F%8C%B4%20live%20abroad%C2%A0in%20the%20EU,%20and%20having%20membership%20makes%20travel%20easier","%F0%9F%92%B7%20%E2%AC%86Prices%20would%20rise:%20Flights,%20energy%C2%A0and%20%F0%9F%93%B1%20phone%20tariffs%C2%A0are%20all%20at%20risk%20of%C2%A0going%20up%20in%20price%20if%20we%20leave%20the%20EU","%F0%9F%92%AA%20%F0%9F%91%A5%20Deal-making%20power:%C2%A0The%20EU%20negotiates%20%F0%9F%92%A1%20energy%20deals%20as%20a%20large,%20supposedly%20stronger,%20bloc","%F0%9F%92%B0%20%F0%9F%8E%81%20Buying%20&%20Selling:%C2%A0Britain%20is%20the%20EU%E2%80%99s%20largest%20trading%20partner%C2%A0-%20over%2040%25%20of%20British%20exports%C2%A0go%20to%20the%20EU%20and%20over%2050%25%20of%20our%20products%C2%A0%20come%20from%20the%20EU","%F0%9F%93%A6%20%F0%9F%93%9C%20Trading%20rules:%C2%A0Even%20after%20Brexit,%20Britain%20may%20still%20have%20to%20comply%20with%20EU%20rules%C2%A0to%20trade%20with%20EU%20countries","%F0%9F%93%89%20%F0%9F%9A%A7%20Slower%20growth:%C2%A0If%20we%20left%20the%20EU%20an%20estimated%20%C2%A336bn%20would%20be%20lost%C2%A0per%20year%C2%A0due%20to%20slower%20growth%C2%A0reducing%20the%20total%20tax%20paid%20to%20the%20Treasury","%F0%9F%92%AA%20%F0%9F%91%A5%20Stronger%20in:%C2%A0In%20a%20competitive,%20%F0%9F%8C%8D%20globalised%20world%20%C2%A0the%20UK%20needs%20to%20stay%20in%20the%20EU%20to%20help%20shape%20laws%C2%A0which%20affect%20the%20UK%20from%20the%20inside","%E2%9C%8C%20%F0%9F%91%8A%20Double%20hit:%C2%A0The%20UK%20government%E2%80%99s%20%F0%9F%87%AC%F0%9F%87%A7%20%C2%A0ability%20to%20influence%20policies%20occurs%20both%20in%20voting%20and%20in%20negotiations%20over%20the%20actual%20text%20of%20a%20draft%20law","%F0%9F%92%9D%20%F0%9F%91%8D%20Helpful%20laws:%C2%A0Many%20EU%20laws%20benefit%20the%20UK,%20for%20instance%20the%20new%20EU%20CAP%C2%A0will%20invest%20%C2%A322%20billion%20over%20the%20next%207%20years","%E2%9C%88%20%E2%9C%85%20Migrants%20benefit%20us:%C2%A0EU%20citizens%20living%20in%20Britain%20%C2%A0%F0%9F%92%B8%20%C2%A0pay%20more%20in%20taxes%20than%20they%20receive%20in%20benefits%C2%A0and%20the%20Remain%20side%20say%20they%E2%80%99re%20good%20for%20the%20economy","%F0%9F%94%A7%20%F0%9F%94%A9%20Tightening%20rules:%C2%A0Benefits%20for%20new%20EU%20migrant%20workers%20will%20soon%20be%20limited%20for%20the%20first%20four%20years"],
+
+	"outURL":["%F0%9F%99%8A%20%F0%9F%92%AC%20Limited%20power:%C2%A0The%20UK%20Government%20can%20only%20do%20so%20much%20to%20%F0%9F%9A%B7%20reduce%20immigration%C2%A0due%20to%20the%20rules%20of%20being%20in%20the%20EU","%F0%9F%90%8C%20%F0%9F%94%80%20Slow%20to%20change:%C2%A0The%20UK%20%F0%9F%86%95%20%F0%9F%9A%AB%20can%E2%80%99t%20change%20certain%20legislation%C2%A0without%20it%20going%20through%20the%20EU,%20which%20often%20%E2%8F%B3%20takes%20longer%20like%20the%20infamous%20tampon%20tax","%F0%9F%92%A1%C2%A0%F0%9F%91%8C%20Energy%20independent:%C2%A0Most%20of%20our%20%F0%9F%92%A8%20gas%20imports%20come%20from%20Norway%C2%A0%E2%80%93%20Britain%20is%20not%20dependent%20on%20Russia","%F0%9F%92%B0%20%F0%9F%8E%81%20Handing%20over%20cash:%20We%20have%20paid%20around%20%C2%A3380%20billion%20to%20the%20EU%20since%20we%20joined%20in%20the%2070s,%20adjusting%20for%20inflation%C2%A0-%20this%20money%20could%20have%20been%20spent%20directly%20on%20British%20public%20services","%F0%9F%93%9C%20%F0%9F%92%B3%20Terms%20and%20conditions:%C2%A0Much%20of%20the%20money%20we%20get%20straight%20back%20from%20the%20EU%20comes%20with%20instructions%20on%20how%20to%20spend%20it%C2%A0-%20a%20Brexit%20would%20mean%20we%20can%20dictate%20where%20it%20goes","%F0%9F%90%BE%20%F0%9F%9A%B8%20Trodden%20path:%C2%A0Britain%20could%20emulate%20countries%20like%20Norway%20or%20Switzerland,%20both%20prosperous%20and%20with%20a%20high%20standard-of-living,%20and%20re-establish%20trade%20links%20with%20EU%20states","%F0%9F%92%AA%20%F0%9F%92%AC%20Big%20influence:%C2%A0Between%2010%25%20and%2055%25%C2%A0of%20UK%20laws%20and%20regulations%C2%A0%F0%9F%8C%B1%20%C2%A0stem%20from%20the%20EU","%F0%9F%99%8B%20%F0%9F%9A%B6%20Voted%20out:%C2%A0In%20recent%20years%20the%20UK%20has%20been%20on%20the%20losing%20side%C2%A0of%20fighting%20EU%20laws,%20and%20now%20loses%20a%20higher%20proportion%20of%20votes%C2%A0than%20any%20other%20member","%E2%9B%94%20%F0%9F%9A%B7%20Held%20back:%C2%A0Open%20Europe%20estimates%20that%20the%20100%20most%20expensive%20EU%20regulations%C2%A0set%20back%20the%20UK%20economy%20by%C2%A0%C2%A327.4%20billion%20a%20year","%F0%9F%94%93%20%E2%9A%A0%20Lacking%20control:%C2%A0Immigration%20can%20only%20be%20controlled%20so%20much%C2%A0when%20you%E2%80%99re%20an%20EU%20member","%F0%9F%9A%B7%20%F0%9F%9A%AA%20Security%20risks:%C2%A0The%20Schengen%20Area%20means%20someone%20crossing%20the%20channel%20could%20have%20entered%20Europe%20from%20almost%20any%20bordering%20country"]
+}
+
+
+
+
